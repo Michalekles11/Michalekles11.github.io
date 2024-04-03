@@ -1,66 +1,38 @@
 <!DOCTYPE html>
+<html>
 <head>
-    <title>Test Website - Home</title>
-    <meta charset="UTF-8">
+    <title>Home</title>
+  <link rel="stylesheet" href="PlikCSSStylowBoTakKazanoXD.css">
 
-    <style>
-       .btn{
-            display: inline-block;
-            background-color: #202020;
-            color: white;
-            padding: 15px 5%;
-            text-decoration: none;
-            border-style:solid;
-            border-width: 0px;
-            transition-duration: 0.4s;
-            border-bottom-width: 1px;
-            border-bottom-color: #202020;
-            font-size: 100%;
-       }
-       .btn:hover {
-            background-color: #2b2b2b;
-            border-bottom-color: #ffffff;
-            padding: 15px 11%;
-            font-size: 100%;
-            
-        }
-        .bar{
-            background-color: #202020;
-            padding: 15px;
-            box-sizing: border-box;
-            
-        }
-        .Box{
-            display: inline-block;
-            color: #ffffff;
-            background-blend-mode: color;
-            padding: 15px 5%;
-            font-size: 100%;
-            font-weight: 1000;
-        }
-        .tekt{
-            padding: 1%;
-            color: #ffffff;
-            font-size: xx-large;
-            font-weight: 560;
-            text-align: center;
-        }
-    </style>
 </head>
-<body style="background-color:#2b2b2b">
-    <div class="bar">
-        <a class="Box">Test Website</a>
-        <a class="btn" href=index.html onmousedown="mDown(this)" style="color: rgb(14, 247, 26);">Home</a> 
-        <a class="btn" href=Links.html onmousedown="mDown(this)">Links</a>
-        <a class="btn" href=Wiki.html onmousedown="mDown(this)">Wikipedia</a> 
-        <a class="btn" href=Abt.html onmousedown="mDown(this)">About</a> 
+<body>
+    <div class="backgroundbar">
+        <a style="color: rgb(0, 255, 0);" href="index.html">Home</a>
+        <a href="Credits.html">Credits</a>
     </div>
-    <div class="tekt">Currently There's nothing here!</div>
+    <div>
+        <h1>
+            Oto jest przepiękny krajobraz:
+            <img style="vertical-align: middle;" src="plakat-park-natura-pejzaz.jpg" alt="krajobraz">
+            jak widać stoi on po środku
+        </h1>
+    </div>
+    <div>
+        <h1>
+            Oto jest ten sam przepiękny krajobraz:
+            <img style="vertical-align: bottom;" src="plakat-park-natura-pejzaz.jpg" alt="krajobraz">
+            tylko, że tym razem jest na dole tektsu!
+        </h1>
+    </div>
+    <div>
+        <h1>
+            Oto jest ten sam przepiękny krajobraz:
+            <img style="vertical-align: top;" src="plakat-park-natura-pejzaz.jpg" alt="krajobraz">
+            bardzo oczywiste, że chcę napisać, że jest na górze tekstu
+        </h1>
+    </div>
+    
+   
+    
 </body>
-<script>
-    function mDown(obj) {
-  obj.style.backgroundColor = "#cacaca"
-  obj.style.padding = "15px 12%" 
-  obj.style.color = "black"
-}
-</script>
+</html>
