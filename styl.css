@@ -1,0 +1,62 @@
+body{
+            margin: 0; 
+            text-align: center;
+        }
+        .tlo{
+            background-image: url('tlo.png');       
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center; 
+        }
+        .idk{
+            margin-bottom: 0;  
+            background-color: black;
+            width: 100%;
+            height: max-content;
+            text-align: center;
+        }
+        .tutul{
+            color: white;
+            text-decoration-color: black;
+            text-decoration:overline;
+            vertical-align: middle;
+            font-size: xx-large;
+            font-weight: 800;
+        }
+        .szlak{
+            
+            margin: 0;
+            color: white;
+            text-decoration-color: black;
+            background-color: rgba(0, 0, 0, 0.555);
+            vertical-align: middle;
+            font-size: xx-large;
+            text-align: center;
+            font-weight: 760;
+        }
+        .szlak p{
+            
+            margin: 0;
+            color: rgb(255, 216, 216);
+            text-decoration-color: black;
+            background-color: rgba(0, 0, 0, 0.555);
+            text-decoration:overline;
+            vertical-align: middle;
+            font-size: xx-large;
+            width: 56%;
+            margin-left: 22%;
+            text-align: center;
+            font-weight: 455;
+        }
+        .ok{
+            margin-top: 5%;
+        }
+        .wroc{
+            color: white;
+            background-color: brown;
+            padding: 25px;
+            width: 5%;
+            font-size: xx-large;
+            text-decoration: none;
+        }
